@@ -5,6 +5,7 @@ template: "post"
 draft: false
 slug: "one-small-thing-at-a-time"
 category: "Writing Code"
+description: "The most important principle that helps me avoid development churn is the principle of doing one small thing at a time. In other words, develop in incremental changes."
 tags:
   - "Writing Code"
 ---
