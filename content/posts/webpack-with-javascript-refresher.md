@@ -4,7 +4,7 @@ date: 2020-01-13T17:19:22.832Z
 template: "post"
 draft: false
 slug: webpack-with-javascript-refresher
-category: ""
+category: "JavaScript"
 description: "A quick explanation of Webpack to jog your memory."
 ---
 

@@ -30,19 +30,8 @@ module.exports = {
     bio: 'I build backends and frontends for websites and web apps in Austin, TX 🌮',
     contacts: {
       email: 'm.schumaker235@gmail.com',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#markschu',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: ''
+      github: 'https://github.com/markschu',
+      linkedin: 'https://www.linkedin.com/in/mark-schumaker-5980a0a2/'
     }
   }
 };
