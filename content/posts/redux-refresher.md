@@ -53,8 +53,44 @@ const reducer = (currentState, action) => {
 ```
 The **`store.dispatch`** method requests an action to update the store. It inputs an action and calls the reducer to do the actual updating.
 
-It is used like this:
-
 ```js
 store.dispatch({type: 'SET_FOO', value: 42});
+```
+
+Here are the main concepts put together in a working, minimal script.
+
+```js
+const {createStore} = require('redux');
+
+// create an action
+const action = {type: 'SET_FOO', value: 42}
+
+// define the reducer
+const reducer = (currentState, action) => {
+    switch (action.type) {
+        case 'SET_FOO':
+            return Object.assign({}, currentState, {
+                foo: action.value
+            });
+        default:
+            return currentState;
+    }
+}
+
+// set the initial state
+const initialState = {
+    foo: 0
+}
+
+// create the store
+const store = createStore(reducer, initialState);
+
+// prints out {foo: 0}
+console.log(store.getState());
+
+// update the store
+store.dispatch(action);
+
+// prints out {foo: 42}
+console.log(store.getState());
 ```
