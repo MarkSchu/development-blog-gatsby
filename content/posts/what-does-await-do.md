@@ -22,7 +22,8 @@ console.log('hello');
 When this code executes, `console.log('hello')` does not wait until the promise resolves. It'll get called before `console.log(value)`.
 
 With the `await` operator, you can halt the execution. In the following, the program waits until `somePromise` resolves. Then it calls `console.log(value)`. Then it calls ` console.log('hello')`.
-```
+
+```js
 let value = await somePromise;
 console.log(value);
 console.log('hello');
