@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://www.markschumaker.dev/',
   pathPrefix: '/',
   title: 'Mark Schumaker',
-  subtitle: 'I build backends and frontends for websites and web apps in Austin, TX 🌮. I also learn and write.',
+  subtitle: 'I build frontends for websites and web apps in Austin, TX 🌮. I also learn and write.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Mark Schumaker',
     photo: '/photo.jpg',
-    bio: 'I build backends and frontends for websites and web apps in Austin, TX 🌮',
+    bio: 'I build frontends for websites and web apps in Austin, TX 🌮',
     contacts: {
       email: 'm.schumaker235@gmail.com',
       github: 'https://github.com/markschu',
