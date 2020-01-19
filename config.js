@@ -30,8 +30,8 @@ module.exports = {
     bio: 'I build frontends for websites and web apps in Austin, TX 🌮',
     contacts: {
       email: 'm.schumaker235@gmail.com',
-      github: 'https://github.com/markschu',
-      linkedin: 'https://www.linkedin.com/in/mark-schumaker-5980a0a2/'
+      github: 'markschu',
+      linkedin: 'mark-schumaker-5980a0a2/'
     }
   }
 };

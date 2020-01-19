@@ -65,4 +65,5 @@ The **Build Command** is how you ask Webpack to make the bundle file. There are 
   }
 }
 ```
+
 The `webpack-cli` dependency provides the `webpack` command that's called via the `npm run build` script.
