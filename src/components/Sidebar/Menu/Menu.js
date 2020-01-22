@@ -25,6 +25,10 @@ const Menu = ({ menu }: Props) => (
         </li>
       ))}
     </ul>
+    <a
+        className={styles['menu__list-item-link']}
+        activeClassName={styles['menu__list-item-link--active']}
+        href="https://understandhardthings.com">Understand Hard Things</a>
   </nav>
 );
 
