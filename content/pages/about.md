@@ -4,9 +4,15 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
-👋 Hey, my name is Mark Schumaker. I'm a full stack developer living in Austin, TX.
+👋 Hey, my name is Mark Schumaker. I'm a frontend developer living in
+Austin, TX.
 
-Most of the code I write these days is in JavaScript. Here are some of the tools that I use:
+Most of the code I write these days is in JavaScript.
+
+I'm currently working on a blog called [Understand Hard Things](https://understandhardthings.com)
+in which I learn and explain tricky topics.
+
+Here are some of the tools that I use:
 
 * [React](https://reactjs.org/)
 * [Redux](https://redux.js.org/)
