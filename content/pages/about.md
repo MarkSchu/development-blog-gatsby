@@ -10,7 +10,7 @@ Austin, TX.
 Most of the code I write these days is in JavaScript.
 
 I'm currently working on a blog called [Understand Hard Things](https://understandhardthings.com)
-in which I learn and explain tricky topics. I'm building it with GatsbyJS, a static site framework that incorporates React and GraphQL.
+in which I learn and explain tricky topics. I'm building it with GatsbyJS, a static site framework that incorporates React and GraphQL. It is very much in progress. 
 
 Here are some of the tools that I use:
 
